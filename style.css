@@ -365,6 +365,8 @@ input{
     padding: .6rem 2rem .6rem 2rem;
     margin-bottom: 1rem;
     font-size: 18px;
+    border: 1px solid grey;
+    border-radius: 1rem;
 }
 
 .prices{
