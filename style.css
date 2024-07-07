@@ -1,0 +1,690 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+a{
+    color: white;
+}
+
+body{
+    background-color: azure;
+}
+
+.container{
+    margin: 0 50px 0 50px;
+}
+
+.promo_block{
+    margin-bottom: 6rem;
+    padding-bottom: 4rem;
+    position: relative;
+}
+
+.product_block{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.promo_heading{
+    text-align: center;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.promo_img {
+    width: 40%;
+    text-align: center;
+}
+
+.promo_img > img {
+    height: 350px;
+}
+
+.product_block > ul {
+    width: 60%;
+}
+
+.promo_list > li:not(:last-child){
+    margin-bottom: 2rem;
+}
+
+.promo_list > li{
+    font-size: 18px;
+}
+
+/* Compound */
+
+.compound_block{
+    margin-bottom: 5rem;
+    padding-bottom: 4rem;
+    position: relative;
+}
+
+.compound_button{
+    position: absolute;
+    bottom: -6rem;
+}
+
+.ing1{
+    background-image: url(img/ing1.jpg);
+    background-size: contain;
+}
+
+.ing2{
+    background-image: url(img/ing2.jpg);
+    background-size: contain;
+}
+
+.ing3{
+    background-image: url(img/ing3.jpg);
+    background-size: contain;
+}
+
+.ing4{
+    background-image: url(img/ing4.jpg);
+    background-size: contain;
+}
+
+.ing5{
+    background-image: url(img/ing5.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+} 
+
+.ing6{
+    background-image: url(img/ing6.jpg);
+    background-size: contain;
+}
+
+.ln-1{
+    width: 50px;
+    position: absolute;
+    left: 35%;
+    top: 15%;
+    transform: rotate(20deg);
+    border: 1px solid black;
+}
+
+.ln-2{
+    width: 50px;
+    position: absolute;
+    left: 35%;
+    border: 1px solid black;
+}
+
+.ln-3{
+    width: 50px;
+    position: absolute;
+    left: 35%;
+    bottom: 15%;
+    transform: rotate(-20deg);
+    border: 1px solid black;
+}
+
+.ln-4{
+    width: 50px;
+    position: absolute;
+    border: 1px solid black;
+    right: 35%;
+    top: 15%;
+    transform: rotate(160deg);
+}
+
+.ln-5{
+    width: 50px;
+    position: absolute;
+    border: 1px solid black;
+    right: 35%;
+} 
+
+.ln-6{
+    width: 50px;
+    position: absolute;
+    border: 1px solid black;
+    right: 35%;
+    bottom: 15%;
+    transform: rotate(-160deg);
+}
+
+.compound_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.main_product{
+    width: 300px;
+    height: 300px;
+    margin: 0 3rem 0 3rem;
+    background-image: url(img/prod.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.product_ingredient > div {
+    width: 100px;
+    height: 100px;
+}
+
+.product_ingredient > div:not(:last-child){
+    margin-bottom: 3rem;
+}
+
+/* Reviews */
+
+.reviews_block{
+    margin-bottom: 3rem;
+    display: flex;
+    justify-content: center;
+}
+
+.review_container {
+    width: 55%;
+    position: relative;
+    text-align: center;
+}
+
+.list_item_container > p {
+    font-size: 18px;
+    text-align: start;
+    padding: 0 1rem 0 1rem;
+}
+
+.list_item_container > div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+    padding: 0 7rem 0 7rem;
+}
+
+.review_img{
+    width: 180px;
+    height: 250px;
+    border-radius: 50%;
+}
+
+.review_p{
+    font-size: 25px;
+}
+
+.slider{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.reviews_list_item{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: none;
+    padding: 1.5rem 0 1.5rem 0;
+    background-color: rgb(229, 247, 247);
+}
+
+.block{
+    display: block;
+}
+
+.prev_button{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: rotate(180deg);
+    width: 30px;
+    height: 30px;
+    
+}
+
+.next_button{
+    position: absolute;
+    top: 50%;
+    right: 0;
+    width: 30px;
+    height: 30px;
+}
+
+/* Second Promo */
+
+.second_promo_block{
+    margin-bottom: 5.5rem;
+    padding-bottom: 4rem;
+    position: relative;
+}
+
+.second_promo_info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.second_promo_info > div {
+    width: 40%;
+    text-align: center;
+}
+
+.second_promo_info > div > img{
+    height: 380px;
+}
+
+.second_promo_info > p{
+    width: 60%;
+    font-size: 20px;
+}
+
+.second_promo_list > li{
+    font-size: 18px;
+}
+
+.second_promo_list > li:not(:last-child) {
+    margin-bottom: 1rem;
+}
+
+
+
+/* Order */
+
+.order_block{
+    margin-bottom: 4rem;
+}
+
+
+.order_container{
+    text-align: center;
+}
+
+.order_heading{
+    margin-bottom: 1.5rem;
+}
+
+.simple_timer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+
+.simple_timer > span{
+    font-size: 24px;
+}
+
+.simple_timer > span:not(:last-child){
+    margin-right: 0.5rem;
+}
+
+.about_product{
+    margin-right: 6rem;
+}
+
+.about_product > img{
+    height: 250px;
+}
+
+.new_price {
+    font-size: 26px;
+    color: red;
+    margin-right: 0.9rem;
+    border-radius: 50%;
+    transform: scale(.85);
+    animation: pulse 3s ease-in-out infinite;
+  }
+  
+  @keyframes pulse {
+    from {
+      transform: scale(.85);
+    }
+    50% {
+      transform: scale(1);
+    }
+    to {
+      transform: scale(.85);
+    }
+  }
+
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 45%;
+}
+
+input{
+    width: 100%;
+    height: 8%;
+    padding: .6rem 2rem .6rem 2rem;
+    margin-bottom: 1rem;
+    font-size: 18px;
+}
+
+.prices{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.line{
+    position: absolute;
+    top: 0.5rem;
+    right: -.3rem;
+    width: 20px;
+    border: 1px solid grey;
+}
+
+.about_product_container{
+    display: flex;
+    justify-content: center;
+}
+
+.old_price{
+    font-size: 18px;
+    color: grey;
+    position: absolute;
+    top: 0;
+    right: -.4rem;    
+}
+
+
+::placeholder{
+   float: right;
+}
+
+.order_button{
+    position: absolute;
+    left: 43%;
+    bottom: 0;
+    text-align: center;
+    padding: .9rem 2rem .5rem 2rem;
+    color: white;
+    background-color: aquamarine;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.submit{
+    width: 50%;
+    height: 3rem;
+    background-color: aquamarine;
+    border: none;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+}
+
+.price{
+    font-size: 26px;
+    color: red;
+    margin-right: .5rem;
+}
+
+@media (max-width: 960px) {
+    .promo_img > img{
+        height: 250px;
+    }   
+
+    .promo_list > li {
+        font-size: 15px;
+    }
+
+    .promo_list > li:not(:last-child){
+        margin-bottom: .5rem;
+    }
+
+    .product_ingredient > div:not(:last-child){
+        margin-bottom: 1.5rem;
+    }
+
+    .ln-1{
+        left: 32%;
+        top: 20%;
+    }
+
+    .ln-2{
+        left: 32%;
+    }
+
+    .ln-3{
+        left: 32%;
+        bottom: 20%;
+    }
+
+    .ln-4{
+        right: 32%;
+        top: 20%;
+    }
+
+    .ln-5{
+        right: 32%;
+    }
+
+    .ln-6{
+        right: 32%;
+        bottom: 20%;
+    }
+
+    .review_img{
+        width: 150px;
+        height: 200px;
+    }
+
+    .list_item_container > p {
+        font-size: 15px;
+    }
+
+    .second_promo_info > div > img{
+        height: 300px;
+        margin-right: 1rem;
+    }
+
+    .second_promo_info > p{
+        font-size: 16px;
+    }
+
+    .second_promo_list > li{
+        font-size: 16px;
+    }
+
+    .second_promo_list > li:not(:last-child){
+        margin-bottom: .5rem;
+    }
+
+    .about_product > img{
+        height: 200px;
+    }
+
+    .old_price{
+        right: -1rem;
+    }
+
+    .line{
+        right: -1rem;
+    }
+
+    .main_product{
+        width: 250px;
+        height: 250px;
+    }
+
+@media (max-width: 375px) {
+    .promo_block{
+        padding-bottom: .5rem;
+    }
+
+    .compound_block{
+        padding-bottom: .5rem;
+    }
+
+    .second_promo_block{
+        padding-bottom: .5rem;
+    }
+
+    .container{
+        margin: 0 30px 0 30px;
+    }
+
+    .promo_img > img {
+        height: 150px;
+    }
+
+    .promo_list > li{
+        font-size: 13px;
+    }
+
+    .promo_list > li:not(:last-child){
+        margin-bottom: .2rem;
+    }
+
+    .order_button{
+        left: 33%;
+        font-size: 15px;
+        bottom: -4rem;
+    }
+
+    .order_button2{
+        left: 33%;
+    }
+
+    .product_ingredient > div{
+        width: 70px;
+        height: 70px;
+    }
+
+    .main_product{
+        height: 150px;
+    }
+
+    .ln-1{
+        width: 35px;
+        left: 24%;
+        top: 20%;
+    }
+
+    .ln-2{
+        width: 35px;
+        left: 24%;
+        
+    }
+
+    .ln-3{
+        width: 35px;
+        left: 24%;
+        bottom: 20%;
+    }
+
+    .ln-4{
+        width: 35px;
+        right: 24%;
+        top: 20%;
+    }
+
+    .ln-5{
+        width: 35px;
+        right: 24%;
+    }
+
+    .ln-6{
+        width: 35px;
+        right: 24%;
+        bottom: 20%;
+    }
+
+    .review_container{
+        width: 100%;
+    }
+
+    .list_item_container > div{
+        justify-content: space-between;
+        padding: 0 2rem 0 2rem;
+    }
+
+    .review_p{
+        font-size: 23px;
+    }
+
+    .review_img{
+        margin-left: 0;
+        margin-right: 1.5rem;
+    }
+
+    .second_promo_info > div{
+        width: 30%;
+    }
+
+    .second_promo_info > div > img{
+        height: 150px;
+    }
+
+    .second_promo_info > p{
+        font-size: 12px;
+    }
+
+    .second_promo_list > li{
+        font-size: 12px;
+    }
+
+    .simple_timer > span{
+        font-size: 16px;
+    }
+
+    .simple_timer > span:not(:last-child){
+        margin-right: .2rem;
+    }
+
+    .about_product{
+        margin-right: 2rem;
+    }
+
+    ::placeholder{
+        font-size: 12px;
+    }
+
+    input{
+        width: 70%;
+        font-size: 12px;
+    }
+
+    .submit{
+        width: 70%;
+    }
+
+    .price{
+        font-size: 20px;
+    }
+
+    .new_price{
+        font-size: 20px;
+    }
+
+    .old_price{
+        font-size: 15px;
+        right: -.8rem;
+    }
+
+    .line{
+        right: -.8rem
+    }
+
+    .about_product > img{
+        height: 150px;
+    }
+}
+}
